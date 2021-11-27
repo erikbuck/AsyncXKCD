@@ -9,6 +9,6 @@ An Xcode12 project for iOS that asynchronously downloads and displays xkcd comic
 - A design pattern for exclusively updating shared data on the main thread to avoid data corruption
 - NotificationCenter and Notification to decouple posters and observers a.k.a. publishers and subscribers
 
-This is an almost minimal example. It was created in one class session including time spent discussing the myriad ways shared dat may become corrupted and the dangers of rolling your own concurrency design using mutex loks or similer. The TL;DR is "Use the frameworks that do those things for you".
+This is an almost minimal example. It was created in one class session including time spent discussing the myriad ways shared data may become corrupted and the dangers of rolling your own concurrency design using mutex loks or similer. The TL;DR is "Use the frameworks that do those things for you".
 
 ![Screen Shot](./SimulatorScreenShot.png)
